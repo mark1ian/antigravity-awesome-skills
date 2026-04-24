@@ -219,6 +219,13 @@ skyvern browser evaluate --expression "document.title"
 skyvern browser evaluate --expression "document.querySelectorAll('table tr').length"
 ```
 
+## Limitations
+
+- Do not use Skyvern to bypass site access controls, rate limits, consent gates, or terms that prohibit automation.
+- Browser automation can change remote state; confirm user intent before submitting forms, purchasing, deleting, or sending messages.
+- Prefer deterministic selectors for stable production flows; AI actions can misread unlabeled or visually ambiguous controls.
+- Store credentials only in the supported credential vaults and never type passwords directly through `type` or `act`.
+
 ## Agent Mode
 
 All commands accept `--json` for structured output. Set `SKYVERN_NON_INTERACTIVE=1` to prevent prompts.
