@@ -18,6 +18,12 @@ license_source: "https://github.com/Skyvern-AI/skyvern/blob/main/LICENSE"
 
 Skyvern uses AI to navigate and interact with websites. Every command below is a runnable `skyvern <command>` invocation.
 
+## When to Use This Skill
+
+- Use when you need AI-assisted browser automation for navigation, extraction, form filling, login flows, or reusable website workflows.
+- Use when deterministic selectors are unavailable and Skyvern's visual/a11y reasoning can identify page controls.
+- Use when a one-off browser task should become a repeatable workflow with run history and verification.
+
 ## Step 1: Classify Your Task (ALWAYS do this first)
 
 | Classification | Signal | CLI Command | Cost | What Happens |
